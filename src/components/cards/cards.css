@@ -1,0 +1,23 @@
+
+.card{
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 10px;
+    margin: 5px;
+}
+.cards{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: square;
+    margin: 0;
+    padding: 0;
+}
+.cards-item{
+    display: flex;
+    padding: 1rem;
+}
+.card-footer, .card-header{
+    background-color: #0A2647;
+    color:white;
+    font-family: Century;
+}
